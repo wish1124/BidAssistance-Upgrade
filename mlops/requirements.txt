@@ -1,0 +1,7 @@
+# Install with Apache Airflow's version-specific constraints in the target runtime.
+mlflow>=3.0,<4.0
+apache-airflow>=3.0,<4.0
+pandas>=2.1,<3.0
+numpy>=1.26,<3.0
+torch>=2.2,<3.0
+matplotlib>=3.8,<4.0

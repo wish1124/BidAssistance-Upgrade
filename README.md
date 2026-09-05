@@ -1,5 +1,10 @@
 # 🏠 AIVLE 스쿨 빅 프로젝트 16조
 
+> 고도화 작업은 [`services/ai_api`](services/ai_api/README.md)의 FastAPI
+> 프로덕션 기반, Hybrid RAG와 [`mlops`](mlops/README.md)의 MLflow/Airflow
+> 파이프라인으로 진행한다. Redis·보안·관측성·프론트엔드·Gateway는
+> [B 설계안](docs/b-design.md)으로만 기록하며, Kafka와 Kubernetes/Helm은 범위에서 제외한다.
+
 ## 🏢 AI 기반 입찰 인텔리전스 플랫폼
 
 <!-- 프로젝트 대표 이미지 추가해야함 -->
