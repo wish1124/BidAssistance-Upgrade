@@ -1,0 +1,16 @@
+export type Page =
+    | "home"
+    | "login"
+    | "signup"
+    | "dashboard"
+    | "findAccount"
+    | "notice"
+    | "resetPassword"
+    | "bids"
+    | "analytics"
+    | "summary"
+    | "cart"
+    | "notifications"
+    | "chatbot"
+    | "profile"
+    | "community";
