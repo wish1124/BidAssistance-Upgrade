@@ -1,0 +1,45 @@
+# 서버 및 API 프레임워크
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+pyngrok
+
+# LangChain 및 AI (OpenAI, LangGraph)
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+langchain-core>=0.1.25
+langchain-text-splitters>=0.0.1
+langgraph>=0.0.26
+openai>=1.10.0
+tiktoken>=0.5.2
+
+# 벡터 데이터베이스
+faiss-cpu>=1.7.4
+
+# 데이터 처리 및 수치 연산
+pandas>=2.1.0
+numpy>=1.24.0
+
+# 파일 로더 및 오피스 문서 처리 (Excel, HWP, Image)
+openpyxl                    # Excel 로딩(UnstructuredExcelLoader)
+unstructured[xlsx]          # Excel 로딩
+Pillow                      # 이미지 처리
+olefile                     # HWP 파일 처리 필수
+pytesseract                 # OCR 처리
+python-multipart
+
+# PDF 처리 (코드에서 혼용 사용 중)
+PyPDF2                      # main.py 에서 사용
+pypdf                       # BidAssitanceModel.py 에서 사용
+pymupdf                     # BidAssitanceModel.py (fitz) 에서 사용
+md2pdf                      # 리포트 PDF 변환용
+
+# ML/DL (TFT 모델 및 임베딩)
+torch>=2.0.0
+transformers>=4.36.0
+
+# 유틸리티
+python-dotenv>=1.0.0
+requests>=2.31.0

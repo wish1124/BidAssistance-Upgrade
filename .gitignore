@@ -40,6 +40,13 @@ BE_AI_server/dataset/preprocessed_dataset.csv
 # Personal team photos are not distributed with the public release.
 ops/images/team/
 
+# Legacy-derived retrieval indexes, internal usage material, and operational
+# screenshots are supplied only through approved storage.
+chatbot/faiss_db/
+chatbot/rag_index/
+chatbot/usage_data/
+ops/images/
+
 # logs
 npm-debug.log*
 yarn-debug.log*
