@@ -1,0 +1,46 @@
+
+.idea/
+node_modules/
+
+# build outputs
+dist/
+build/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Runtime configuration and secrets. Commit only documented examples.
+.env
+.env.*
+!.env.example
+frontend/.env.development
+application-local.yaml
+
+# Generated ML and orchestration artifacts
+mlruns/
+mlartifacts/
+airflow/logs/
+airflow/airflow.db
+artifacts/
+services/ai_api/data/*.index.json
+
+# Large model artifacts and raw bidding data are supplied through approved storage.
+BE_AI_server/model/
+chatbot/model/
+model/
+BE_AI_server/dataset/row_data/
+BE_AI_server/dataset/preprocessed_dataset.csv
+
+# Personal team photos are not distributed with the public release.
+ops/images/team/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
